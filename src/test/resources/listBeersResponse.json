@@ -1,0 +1,279 @@
+{
+  "content": [
+    {
+      "id": "2dd2a235-dd1a-4d7e-8911-1e11f4953b58",
+      "beerName": "Mango Bobs",
+      "beerStyle": "ALE",
+      "upc": "0631234200036",
+      "price": 12.74,
+      "quantityOnHand": 336,
+      "createdDate": "2022-08-17T12:44:59.223Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "adb9c8ac-1ba9-4578-b4e1-a37514a1289d",
+      "beerName": "Galaxy Cat",
+      "beerStyle": "PALE_ALE",
+      "upc": "9122089364369",
+      "price": 93.52,
+      "quantityOnHand": 3534,
+      "createdDate": "2022-08-17T12:44:59.225Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "91b18574-d49f-470f-91e2-146c22991126",
+      "beerName": "No Hammers On The Bar",
+      "beerStyle": "WHEAT",
+      "upc": "0083783375213",
+      "price": 16.04,
+      "quantityOnHand": 3847,
+      "createdDate": "2022-08-17T12:44:59.226Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "29fc05e6-d2d6-4c49-8a21-0a2c2e363337",
+      "beerName": "Blessed",
+      "beerStyle": "STOUT",
+      "upc": "4666337557578",
+      "price": 79.3,
+      "quantityOnHand": 4956,
+      "createdDate": "2022-08-17T12:44:59.226Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "012be7bb-5433-4db2-9a1d-f1be248b046b",
+      "beerName": "Adjunct Trail",
+      "beerStyle": "STOUT",
+      "upc": "8380495518610",
+      "price": 89.83,
+      "quantityOnHand": 1054,
+      "createdDate": "2022-08-17T12:44:59.228Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "a04c35ae-430e-4a23-8930-03829c48e021",
+      "beerName": "Very GGGreenn",
+      "beerStyle": "IPA",
+      "upc": "5677465691934",
+      "price": 23.73,
+      "quantityOnHand": 499,
+      "createdDate": "2022-08-17T12:44:59.228Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "28c8ab6b-53e9-4496-9118-351e20ed6dfd",
+      "beerName": "Double Barrel Hunahpu's",
+      "beerStyle": "STOUT",
+      "upc": "5463533082885",
+      "price": 27.39,
+      "quantityOnHand": 2212,
+      "createdDate": "2022-08-17T12:44:59.229Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "a5d01517-15a5-4c38-acc0-78adbebe217f",
+      "beerName": "Very Hazy",
+      "beerStyle": "IPA",
+      "upc": "5339741428398",
+      "price": 81.03,
+      "quantityOnHand": 2992,
+      "createdDate": "2022-08-17T12:44:59.229Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "d1baf89b-5168-4918-a9b5-2038ccfc84bb",
+      "beerName": "SR-71",
+      "beerStyle": "STOUT",
+      "upc": "1726923962766",
+      "price": 9.67,
+      "quantityOnHand": 2056,
+      "createdDate": "2022-08-17T12:44:59.23Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "1c6421b9-7f7f-4c3f-94b2-edf80cd9f978",
+      "beerName": "Pliny the Younger",
+      "beerStyle": "IPA",
+      "upc": "8484957731774",
+      "price": 94.9,
+      "quantityOnHand": 3211,
+      "createdDate": "2022-08-17T12:44:59.23Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "8c70d63b-1d13-4d48-b16c-ed39e2b93b79",
+      "beerName": "Blessed",
+      "beerStyle": "STOUT",
+      "upc": "6266328524787",
+      "price": 66.08,
+      "quantityOnHand": 437,
+      "createdDate": "2022-08-17T12:44:59.23Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "032d9ecf-841f-4045-8150-f32868df6d41",
+      "beerName": "King Krush",
+      "beerStyle": "IPA",
+      "upc": "7490217802727",
+      "price": 29.61,
+      "quantityOnHand": 118,
+      "createdDate": "2022-08-17T12:44:59.231Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "8344e69a-de32-4248-97f3-41cbb4261232",
+      "beerName": "PBS Porter",
+      "beerStyle": "PORTER",
+      "upc": "8579613295827",
+      "price": 84.59,
+      "quantityOnHand": 2533,
+      "createdDate": "2022-08-17T12:44:59.231Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "e8e508dc-0708-418d-9e25-18b34775426e",
+      "beerName": "Pinball Porter",
+      "beerStyle": "STOUT",
+      "upc": "2318301340601",
+      "price": 40.88,
+      "quantityOnHand": 1539,
+      "createdDate": "2022-08-17T12:44:59.231Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "5eaaa1f6-28ba-419b-80fa-2cb5288b1b55",
+      "beerName": "Golden Budda",
+      "beerStyle": "STOUT",
+      "upc": "9401790633828",
+      "price": 73.11,
+      "quantityOnHand": 437,
+      "createdDate": "2022-08-17T12:44:59.232Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "fb049c2f-57f9-4a1a-80b6-1bf12fb2f43d",
+      "beerName": "Grand Central Red",
+      "beerStyle": "LAGER",
+      "upc": "4813896316225",
+      "price": 45.72,
+      "quantityOnHand": 4571,
+      "createdDate": "2022-08-17T12:44:59.232Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "df514d87-05eb-4cb8-81f9-ef2d40d6c31a",
+      "beerName": "Pac-Man",
+      "beerStyle": "STOUT",
+      "upc": "3431272499891",
+      "price": 77.44,
+      "quantityOnHand": 2533,
+      "createdDate": "2022-08-17T12:44:59.232Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "33edddc0-8b7a-4bdc-847b-f4ebaf4b4028",
+      "beerName": "Ro Sham Bo",
+      "beerStyle": "IPA",
+      "upc": "2380867498485",
+      "price": 14.2,
+      "quantityOnHand": 2130,
+      "createdDate": "2022-08-17T12:44:59.232Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "dcad5ddd-598e-4326-a5b2-9442e0892eb3",
+      "beerName": "Summer Wheatly",
+      "beerStyle": "WHEAT",
+      "upc": "4323950503848",
+      "price": 25.3,
+      "quantityOnHand": 803,
+      "createdDate": "2022-08-17T12:44:59.233Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "e152a9db-0f41-4c4b-99dd-1e0e49ced0ee",
+      "beerName": "Java Jill",
+      "beerStyle": "LAGER",
+      "upc": "4006016803570",
+      "price": 32.75,
+      "quantityOnHand": 2176,
+      "createdDate": "2022-08-17T12:44:59.233Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "759e1ebf-96f9-42e7-83f3-2ba89f891dea",
+      "beerName": "Bike Trail Pale",
+      "beerStyle": "PALE_ALE",
+      "upc": "9883012356263",
+      "price": 47.31,
+      "quantityOnHand": 2349,
+      "createdDate": "2022-08-17T12:44:59.233Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "f219f1f0-94c6-4b91-8e60-5369b1b27c2f",
+      "beerName": "N.Z.P",
+      "beerStyle": "IPA",
+      "upc": "0583668718888",
+      "price": 49.39,
+      "quantityOnHand": 507,
+      "createdDate": "2022-08-17T12:44:59.233Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "cfe342e3-458b-4968-917a-4d6e3222dc7c",
+      "beerName": "Stawberry Blond",
+      "beerStyle": "WHEAT",
+      "upc": "9006801347604",
+      "price": 9.3,
+      "quantityOnHand": 1020,
+      "createdDate": "2022-08-17T12:44:59.234Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "77fe4db3-7ca4-4a67-a6db-5b17b9cbd399",
+      "beerName": "Loco",
+      "beerStyle": "PORTER",
+      "upc": "0610275742736",
+      "price": 75.44,
+      "quantityOnHand": 1520,
+      "createdDate": "2022-08-17T12:44:59.234Z",
+      "lastUpdatedDate": null
+    },
+    {
+      "id": "54739aeb-b8ce-4efd-b38e-25de5188ea07",
+      "beerName": "Spocktoberfest",
+      "beerStyle": "STOUT",
+      "upc": "6504219363283",
+      "price": 14.98,
+      "quantityOnHand": 3841,
+      "createdDate": "2022-08-17T12:44:59.234Z",
+      "lastUpdatedDate": null
+    }
+  ],
+  "number": 0,
+  "size": 25,
+  "totalElements": 30,
+  "pageable": {
+    "sort": {
+      "unsorted": true,
+      "sorted": false,
+      "empty": true
+    },
+    "pageNumber": 0,
+    "pageSize": 25,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": false,
+  "totalPages": 2,
+  "sort": {
+    "unsorted": true,
+    "sorted": false,
+    "empty": true
+  },
+  "first": true,
+  "numberOfElements": 25,
+  "empty": false
+}
