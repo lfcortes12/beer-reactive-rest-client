@@ -6,6 +6,7 @@ import java.util.UUID;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
 
 import com.gbt.reactive.beer.domain.Beer;
@@ -76,19 +77,14 @@ public class BeerServiceClientImpl implements BeerServiceClient {
 	@Override
 	public Mono<ResponseEntity<Void>> create(Beer beer) {
 		log.info("Creating a beer  {}", beer);
-		return webClient.post().uri("/api/v1/beer").exchangeToMono(response -> {
-			if (response.statusCode().equals(HttpStatus.CREATED)) {
-				return Mono.empty();
-			} else {
-				return response.createException().flatMap(Mono::error);
-			}
-		});
+		return webClient.post().uri("/api/v1/beer").body(BodyInserters.fromValue(beer)).retrieve().toBodilessEntity();
 	}
 
 	@Override
-	public Mono<ResponseEntity<Void>> update(UUID id) {
-		// TODO Auto-generated method stub
-		return null;
+	public Mono<ResponseEntity<Void>> update(UUID id, Beer beer) {
+		log.info("Updating a beer  {}", beer);
+		return webClient.put().uri(uriBuilder -> uriBuilder.path("/api/v1/beer/{id}").build(id))
+				.body(BodyInserters.fromValue(beer)).retrieve().toBodilessEntity();
 	}
 
 	@Override

@@ -34,9 +34,15 @@ public class BeerServiceMocks {
 						.withBody(Files.read(body.getInputStream(), Charset.defaultCharset()))));
 	}
 
-	public static void setupMockCreateBeer(WireMockExtension wm1) {
+	public static void setupMockCreateBeer(WireMockExtension wm1, HttpStatus status ) {
 		wm1.stubFor(WireMock.post(WireMock.urlEqualTo("/api/v1/beer")).willReturn(WireMock.aResponse()
-				.withStatus(HttpStatus.CREATED.value()).withHeader("Content-Type", MediaType.APPLICATION_JSON_VALUE)));
+				.withStatus(status.value()).withHeader("Content-Type", MediaType.APPLICATION_JSON_VALUE)));
+
+	}
+	
+	public static void setupMockUpdateBeer(WireMockExtension wm1, HttpStatus status ) {
+		wm1.stubFor(WireMock.put(WireMock.urlMatching("/api/v1/beer/([a-z-0-9]*)")).willReturn(WireMock.aResponse()
+				.withStatus(status.value()).withHeader("Content-Type", MediaType.APPLICATION_JSON_VALUE)));
 
 	}
 
