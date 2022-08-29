@@ -21,7 +21,7 @@ public class BeerServiceMocks {
 	}
 
 	public static void setupMockGetBeerById(WireMockExtension wm1, Resource body) throws IOException {
-		wm1.stubFor(WireMock.get(WireMock.urlMatching("/api/v1/beer/([a-z-0-9]*)"))
+		wm1.stubFor(WireMock.get(WireMock.urlMatching("/api/v1/beer/([a-z-0-9]*)\\?showInventoryOnHand=([a-z-0-9]*)"))
 				.willReturn(WireMock.aResponse().withStatus(HttpStatus.OK.value())
 						.withHeader("Content-Type", MediaType.APPLICATION_JSON_VALUE)
 						.withBody(Files.read(body.getInputStream(), Charset.defaultCharset()))));

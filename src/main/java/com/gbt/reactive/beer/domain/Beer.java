@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class Beer {
 
+	private String id;
 	private String beerName;
 	private BeerStyleEnum beerStyle;
 	private String upc;

@@ -13,7 +13,7 @@ public interface BeerServiceClient {
 
 	Mono<BeerListPage> listBeers(GetBeersRequest beersRequest);
 
-	Mono<Beer> getBeerById(UUID id);
+	Mono<Beer> getBeerById(UUID id, boolean showInventorOnHand);
 
 	Mono<Beer> getBeerByUPC(String upc);
 

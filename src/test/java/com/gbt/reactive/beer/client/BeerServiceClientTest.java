@@ -65,10 +65,10 @@ class BeerServiceClientTest {
 	void getBeerById(String uuid) throws IOException {
 		Resource responseResource = new ClassPathResource("getBeerByIdResponse.json");
 		BeerServiceMocks.setupMockGetBeerById(wm1, responseResource);
-		var beerMono = beerServiceClient.getBeerById(UUID.fromString(uuid));
+		var beerMono = beerServiceClient.getBeerById(UUID.fromString(uuid), false);
 		StepVerifier.create(beerMono).assertNext(beer -> {
 			assertThat(beer).isNotNull().returns("Aguila", from(Beer::getBeerName)).returns(BeerStyleEnum.LAGER,
-					from(Beer::getBeerStyle));
+					from(Beer::getBeerStyle)).returns("497f6eca-6276-4993-bfeb-53cbbbba6f08", from(Beer::getId));
 
 		}).expectComplete().verify();
 	}
@@ -81,7 +81,7 @@ class BeerServiceClientTest {
 		var beerMono = beerServiceClient.getBeerByUPC(upc);
 		StepVerifier.create(beerMono).assertNext(beer -> {
 			assertThat(beer).isNotNull().returns("Aguila", from(Beer::getBeerName)).returns(BeerStyleEnum.LAGER,
-					from(Beer::getBeerStyle));
+					from(Beer::getBeerStyle)).returns("0583668718888", from(Beer::getUpc));
 
 		}).expectComplete().verify();
 	}
